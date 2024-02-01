@@ -1,28 +1,24 @@
-# Hi there 👋
+# Hello, World! 👋
 
-I'm Paranietharan Palasuntharam, an undergraduate student pursuing BSc.(Hons.) in Information Technology at the University of Moratuwa. Currently, I'm diving into the world of full-stack development with a focus on:
+I'm Paranietharan, an AI enthusiast and passionate software developer with expertise in Spring Boot and React.js.
 
-- Frontend: React.js
-- Backend: Spring Boot
-- Database: MySQL
-- Design: Figma
+## About Me 🧠
 
-## 🔭 I’m currently working on
-Building and enhancing my skills in React.js, Spring Boot, and MySQL through various projects.
+I have a deep fascination for artificial intelligence and its potential to revolutionize industries. Constantly exploring new AI techniques, algorithms, and applications, I'm driven by a desire to innovate and contribute to the advancement of this rapidly evolving field.
 
-## 🌱 I’m currently learning
-Full-stack development to create robust and dynamic web applications.
+## My Tech Stack 💻
 
-## 👯 I’m looking to collaborate on
-Exciting projects that involve innovative solutions and challenges.
+- **Backend:** Proficient in developing robust and scalable web applications using Spring Boot.
+- **Frontend:** Experienced in crafting dynamic and user-friendly interfaces with React.js.
+- **AI Enthusiast:** Fascinated by the endless possibilities of artificial intelligence and its application in various domains.
 
-## 💬 Ask me about
-Anything related to full-stack development, React.js, Spring Boot, MySQL, or design with Figma.
+## What I Do 🚀
 
-## 📫 How to reach me
-Feel free to reach out to me through [email](mailto:paranietharan64@gmail.com) or connect with me on [LinkedIn](www.linkedin.com/in/paranietharan-palasuntharam).
+I enjoy tackling exciting challenges that push the boundaries of technology, whether it's developing AI-driven applications, designing intuitive user interfaces, or optimizing backend systems for performance and scalability.
 
-## ⚡ Fun fact
-I love exploring new technologies and finding creative solutions to problems.
+## Let's Connect! 🌱
 
-Looking forward to connecting with fellow developers and enthusiasts! 😄
+- **LinkedIn:** [Paranietharan Palasuntharam]([https://www.linkedin.com/in/yourprofile/](https://lk.linkedin.com/in/paranietharan-palasuntharam))
+- **Email:** paranietharan64@gmail.com
+
+Feel free to reach out if you're interested in collaborating on projects that leverage the power of AI and cutting-edge technologies to make a positive impact on the world!
