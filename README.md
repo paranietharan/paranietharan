@@ -20,6 +20,5 @@ I enjoy tackling exciting challenges that push the boundaries of technology, whe
 
 - **LinkedIn:** [Paranietharan Palasuntharam](https://lk.linkedin.com/in/paranietharan-palasuntharam)
 - **Email:** paranietharan64@gmail.com
-- **Instagram:** [Paranietharan Palasuntharam](https://www.instagram.com/itsparanietharan/)
 
 Feel free to reach out if you're interested in collaborating on projects that leverage the power of AI and cutting-edge technologies to make a positive impact on the world!
