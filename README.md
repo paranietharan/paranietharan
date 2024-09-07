@@ -1,6 +1,6 @@
 # Hello, World! 👋
 
-I'm Paranietharan, an AI enthusiast and passionate software developer with expertise in Spring Boot and React.js.
+I'm Paranietharan, passionate software developer with Spring Boot and React.js.
 
 ## About Me 🧠
 
