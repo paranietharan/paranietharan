@@ -1,3 +1,5 @@
+<p align="center"><img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"  /></p>
+
 # Hello, World! 👋
 
 I'm Paranietharan, passionate software developer with Spring Boot and React.js.
