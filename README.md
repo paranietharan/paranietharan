@@ -1,22 +1,18 @@
-<p align="center"><img src="./images/coding.gif" width="600" height="300"  /></p>
+<p align="center"><img src="./images/coding.gif"/></p>
 
-# Hello, World! 👋
-
+# Hello, World! <img src="./images/hi.gif" width="40">
 I'm Paranietharan, passionate software developer with Spring Boot and React.js.
 
-## About Me 🧠
+I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
-I have a deep fascination for artificial intelligence and its potential to revolutionize industries. Constantly exploring new AI techniques, algorithms, and applications, I'm driven by a desire to innovate and contribute to the advancement of this rapidly evolving field.
+- 🔭 I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+- 🌱 Exploring Technical Content Writing.
+- ⚡ Linux and Embdeed Systems
 
-## My Tech Stack 💻
+### 🔥 &nbsp; My Stats :
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=paranietharan&theme=dark&background=000000)](https://git.io/streak-stats)
 
-- **Backend:** Proficient in developing robust and scalable web applications using Spring Boot.
-- **Frontend:** Experienced in crafting dynamic and user-friendly interfaces with React.js.
-- **AI Enthusiast:** Fascinated by the endless possibilities of artificial intelligence and its application in various domains.
-
-## What I Do 🚀
-
-I enjoy tackling exciting challenges that push the boundaries of technology, whether it's developing AI-driven applications, designing intuitive user interfaces, or optimizing backend systems for performance and scalability.
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paranietharan&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Let's Connect! 🌱
 
