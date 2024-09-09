@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/coding.gif"/></p>
+<p align="center"><img width="60%" height="60%" src="./images/coding.gif"/></p>
 
 # Hello, World! <img src="./images/hi.gif" width="40">
 I'm Paranietharan, passionate software developer with Spring Boot and React.js.
