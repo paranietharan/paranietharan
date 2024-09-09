@@ -36,6 +36,3 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
 </p>
-
-<br><br><br>
-Feel free to reach out if you're interested in collaborating on projects that leverage the power of AI and cutting-edge technologies to make a positive impact on the world!
