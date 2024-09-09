@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/coding.webp" width="600" height="300"  /></p>
+<p align="center"><img src="./images/coding.gif" width="600" height="300"  /></p>
 
 # Hello, World! 👋
 
