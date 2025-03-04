@@ -10,9 +10,17 @@
 
 ###
 
-<h4 align="left">✨ Creating bugs since 2021<br>📚 I'm currently learning golang and spring boot<br>🎲 Backend Developer</h4>
+<h4 align="left">
+✨ Creating bugs since 2021<br>
+📚 I'm currently learning golang and spring boot<br>
+🎲 Backend Developer<br>
+🐧 Linux enthusiast.<br>
+</h4>
 
 ###
+<h3>
+🚀 I'm building awesome backend systems using Go and Spring Boot while conquering the world of Linux! 🐧💻
+</h3>
 
 <h2 align="left">I code with</h2>
 
