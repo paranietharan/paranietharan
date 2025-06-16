@@ -1,18 +1,18 @@
-# 💫 About Me:
-# Hi, I'm Paranietharan 👋
+# Hi there, I'm Paranietharan 👋
 
-I'm a passionate developer turning coffee into code and ideas into innovative solutions. Whether it's building sleek web apps with React, robust APIs with Go, or scalable systems with Spring, I thrive on crafting elegant software.
+## About Me
+- 💻 Software Developer specialized in building modern web applications
+- 🔗 [LinkedIn](https://linkedin.com/in/paranietharan-palasuntharam)
+- 🚀 Interested in cloud computing and container orchestration
 
-**Software Craftsman | Creative Coder | Lifelong Learner**
+### Skills
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00f?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-Welcome to my GitHub space—where each repository tells a story of curiosity, collaboration, and continuous improvement. Dive in, explore, and let's create something amazing together!
+## GitHub Stats
 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/paranietharan-palasuntharam) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:paranietharan20@gmail.com) 
-
-# 💻 Tech Stack:
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=paranietharan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=paranietharan&layout=compact&theme=dark&hide_border=true)
