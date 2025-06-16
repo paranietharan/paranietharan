@@ -16,5 +16,5 @@
 
 <!--Animation -->
 <div align="center">
-  <img src="https://github.com/paranietharan/paranietharan/blob/main/coffee-animation.svg" alt="Coffee-coded animation" />
+  <img src="https://raw.githubusercontent.com/paranietharan/paranietharan/main/coffee-animation.svg" alt="Coffee-coded animation" />
 </div>
