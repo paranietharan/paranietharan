@@ -1,0 +1,45 @@
+name: Coding Animation
+
+on:
+  # Run workflow automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Allow manual trigger of the workflow 
+  workflow_dispatch:
+
+jobs:
+  update-animation:
+    name: Generate coding animation
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      # Setup Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          
+      # Install dependencies for the animation generator
+      - name: Install dependencies
+        run: |
+          npm install @anim/coding-typing-svg
+
+      # Generate the animation
+      - name: Generate SVG animation
+        run: |
+          npx coding-typing-svg --text "const coffee = () => {\n  while(coding) {\n    drink(coffee);\n    writeCode();\n  }\n};\n\ncoffee();" --output dist/coding-animation.svg --theme github-dark --speed 50 --font "monospace" --size 25
+
+      # Commit and push the generated animation
+      - name: Push SVG to repository
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: 'dist/coding-animation.svg'
+          message: 'Update coding animation'
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

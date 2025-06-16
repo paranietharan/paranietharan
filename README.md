@@ -14,9 +14,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-00f?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-<!--Snake animation -->
+<!--Animation -->
 <div align="center">
-  <a href="https://github.com/paranietharan">
-    <img src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg" alt="snake">
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=monospace&duration=2500&pause=500&color=36BCF7&center=true&vCenter=true&width=500&lines=const+coffee+%3D+()%3D%3E%7B;++while(coding)+%7B;++++drink(coffee)%3B;++++writeCode()%3B;++%7D;%7D%3B;coffee()%3B" alt="Coding Animation">
 </div>
