@@ -16,5 +16,5 @@
 
 <!--Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=monospace&duration=2500&pause=500&color=36BCF7&center=true&vCenter=true&width=500&lines=const+coffee+%3D+()%3D%3E%7B;++while(coding)+%7B;++++drink(coffee)%3B;++++writeCode()%3B;++%7D;%7D%3B;coffee()%3B" alt="Coding Animation">
+  <img src="https://github.com/paranietharan/paranietharan/blob/main/coffee-animation.svg" alt="Coffee-coded animation" />
 </div>
