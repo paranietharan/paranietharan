@@ -23,5 +23,5 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/paranietharan/paranietharan/main/professional-animation.svg" alt="Professional Coding Animation" width="500" />
+  <img src="https://raw.githubusercontent.com/paranietharan/paranietharan/main/code.gif.svg" alt="Coding Animation" width="500" />
 </div>

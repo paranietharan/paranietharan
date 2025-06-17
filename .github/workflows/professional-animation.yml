@@ -19,24 +19,61 @@ jobs:
 
       - name: Create professional animation
         run: |
-          cat > professional-animation.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
-            <rect width="500" height="200" fill="#1a1a1a" />
-            <text x="20" y="50" font-family="monospace" font-size="25" fill="#00d8ff">
-              Professional Coding Animation
+          cat > code.gif.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300">
+            <rect width="500" height="300" fill="#0d1117"/>
+            
+            <!-- Terminal window -->
+            <rect x="20" y="40" width="460" height="220" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+            
+            <!-- Terminal header -->
+            <rect x="20" y="40" width="460" height="30" rx="10" fill="#21262d"/>
+            <circle cx="40" cy="55" r="6" fill="#ff5f56"/>
+            <circle cx="60" cy="55" r="6" fill="#ffbd2e"/>
+            <circle cx="80" cy="55" r="6" fill="#27ca3f"/>
+            
+            <!-- Code lines with typing animation -->
+            <text x="40" y="100" font-family="Monaco, monospace" font-size="14" fill="#7c3aed">
+              const
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
             </text>
-            <text x="20" y="85" font-family="monospace" font-size="18" fill="#ffffff" xml:space="preserve">
-              &lt;code&gt;
-              <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+            <text x="85" y="100" font-family="Monaco, monospace" font-size="14" fill="#06b6d4">
+              developer
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
             </text>
-            <text x="70" y="85" font-family="monospace" font-size="18" fill="#00d8ff">
-              // Animate stuff here
+            <text x="165" y="100" font-family="Monaco, monospace" font-size="14" fill="#f8fafc">
+              =
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
             </text>
-            <text x="230" y="85" font-family="monospace" font-size="18" fill="#ffffff">
-              &lt;/code&gt;
+            <text x="180" y="100" font-family="Monaco, monospace" font-size="14" fill="#22c55e">
+              'Paranietharan';
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
             </text>
-            <rect x="20" y="100" width="10" height="18" fill="#ffffff">
-              <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+            
+            <text x="40" y="130" font-family="Monaco, monospace" font-size="14" fill="#7c3aed">
+              const
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+            </text>
+            <text x="85" y="130" font-family="Monaco, monospace" font-size="14" fill="#06b6d4">
+              skills
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+            </text>
+            <text x="130" y="130" font-family="Monaco, monospace" font-size="14" fill="#f8fafc">
+              = [
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+            </text>
+            <text x="170" y="130" font-family="Monaco, monospace" font-size="14" fill="#22c55e">
+              'React', 'Python', 'Go'
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze"/>
+            </text>
+            <text x="340" y="130" font-family="Monaco, monospace" font-size="14" fill="#f8fafc">
+              ];
+              <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4s" fill="freeze"/>
+            </text>
+            
+            <!-- Blinking cursor -->
+            <rect x="40" y="150" width="2" height="16" fill="#f8fafc">
+              <animate attributeName="opacity" values="1;0;1" dur="1s" begin="4.5s" repeatCount="indefinite"/>
             </rect>
           </svg>
           EOF
@@ -45,9 +82,9 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add professional-animation.svg
+          git add code.gif.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Add professional coding animation"
+            git commit -m "Update coding animation"
             git push
