@@ -1,0 +1,53 @@
+name: Generate Professional Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  make-animation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create professional animation
+        run: |
+          cat > professional-animation.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
+            <rect width="500" height="200" fill="#1a1a1a" />
+            <text x="20" y="50" font-family="monospace" font-size="25" fill="#00d8ff">
+              Professional Coding Animation
+            </text>
+            <text x="20" y="85" font-family="monospace" font-size="18" fill="#ffffff" xml:space="preserve">
+              &lt;code&gt;
+              <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+            </text>
+            <text x="70" y="85" font-family="monospace" font-size="18" fill="#00d8ff">
+              // Animate stuff here
+            </text>
+            <text x="230" y="85" font-family="monospace" font-size="18" fill="#ffffff">
+              &lt;/code&gt;
+            </text>
+            <rect x="20" y="100" width="10" height="18" fill="#ffffff">
+              <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+            </rect>
+          </svg>
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add professional-animation.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add professional coding animation"
+            git push
