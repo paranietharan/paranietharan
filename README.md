@@ -10,12 +10,14 @@
 ## Dynamic Stats
 
 <div align="center">
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=paranietharan&layout=compact&theme=radical&hide_border=true)
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paranietharan&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <br/>
 </div>
 
-## �🔧 Tech Stack
+## Tech Stack
 
 I work with technologies including but not limited to:
 - **Languages**: Go, Python, Java
 - **Databases**: PostgreSQL, MongoDB, MySQL, MSSQL, OracleDB, Redis
 - **DevOps**: Docker, Git, CI/CD
+
